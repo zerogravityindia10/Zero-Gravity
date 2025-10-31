@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zero Gravity - Elevate Your Digital Presence</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <style>
         * {
@@ -81,13 +84,19 @@
         }
 
         .logo {
-            font-family: 'Space Mono', monospace;
+            /* font-family: 'Space Mono', monospace;
             font-size: 1.5rem;
             font-weight: 700;
             letter-spacing: -0.02em;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.5rem; */
+            /* Set specific width */
+            /* Set specific height */
+            height: 60px;
+            width: 200px;
+            background: url('./assets/logo.jpg') no-repeat center center;
+            background-size: contain;
         }
 
         .logo i {
@@ -213,11 +222,25 @@
             transform: translateY(0);
         }
 
-        .mobile-menu a:nth-child(1) { transition-delay: 0.1s; }
-        .mobile-menu a:nth-child(2) { transition-delay: 0.2s; }
-        .mobile-menu a:nth-child(3) { transition-delay: 0.3s; }
-        .mobile-menu a:nth-child(4) { transition-delay: 0.4s; }
-        .mobile-menu a:nth-child(5) { transition-delay: 0.5s; }
+        .mobile-menu a:nth-child(1) {
+            transition-delay: 0.1s;
+        }
+
+        .mobile-menu a:nth-child(2) {
+            transition-delay: 0.2s;
+        }
+
+        .mobile-menu a:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+
+        .mobile-menu a:nth-child(4) {
+            transition-delay: 0.4s;
+        }
+
+        .mobile-menu a:nth-child(5) {
+            transition-delay: 0.5s;
+        }
 
         .mobile-menu .cta-button {
             margin-top: 2rem;
@@ -292,7 +315,8 @@
             flex-wrap: wrap;
         }
 
-        .primary-btn, .secondary-btn {
+        .primary-btn,
+        .secondary-btn {
             padding: 1.2rem 3rem;
             font-size: 0.9rem;
             font-weight: 600;
@@ -377,7 +401,8 @@
             color: var(--white);
         }
 
-        .visual-card i, .visual-card h4 {
+        .visual-card i,
+        .visual-card h4 {
             position: relative;
             z-index: 1;
         }
@@ -490,7 +515,7 @@
             color: var(--white);
         }
 
-        .service-card > * {
+        .service-card>* {
             position: relative;
             z-index: 1;
         }
@@ -900,7 +925,7 @@
             left: 0;
         }
 
-        .capability-card > * {
+        .capability-card>* {
             position: relative;
             z-index: 1;
         }
@@ -1254,7 +1279,9 @@
         }
 
         @media (max-width: 768px) {
-            .cursor, .cursor-follower {
+
+            .cursor,
+            .cursor-follower {
                 display: none;
             }
 
@@ -1350,6 +1377,7 @@
         }
 
         @media (max-width: 480px) {
+
             .services-grid,
             .tech-categories,
             .testimonials-grid {
@@ -1368,6 +1396,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Custom Cursor -->
     <div class="cursor"></div>
@@ -1379,8 +1408,8 @@
     <!-- Navigation -->
     <nav>
         <div class="logo">
-            <i class="ph-bold ph-rocket-launch"></i>
-            ZERO GRAVITY
+            <!-- <i class="ph-bold ph-rocket-launch"></i>
+            ZERO GRAVITY -->
         </div>
         <ul class="nav-links desktop">
             <li><a href="#services">Services</a></li>
@@ -1422,8 +1451,8 @@
                     PRESENCE
                 </h1>
                 <p class="hero-description">
-                    We engineer high-performance digital experiences that drive measurable results. 
-                    From custom web development to advanced lead generation systems, we transform 
+                    We engineer high-performance digital experiences that drive measurable results.
+                    From custom web development to advanced lead generation systems, we transform
                     businesses through cutting-edge technology and strategic design thinking.
                 </p>
                 <div class="hero-buttons">
@@ -1492,8 +1521,8 @@
                 <h2>OUR CORE<br>SERVICES</h2>
             </div>
             <div class="section-description">
-                We deliver comprehensive digital solutions designed to accelerate your business growth. 
-                Our services combine strategic thinking, cutting-edge technology, and flawless execution 
+                We deliver comprehensive digital solutions designed to accelerate your business growth.
+                Our services combine strategic thinking, cutting-edge technology, and flawless execution
                 to create experiences that drive real results.
             </div>
         </div>
@@ -1504,7 +1533,7 @@
                 <i class="ph-bold ph-code service-icon"></i>
                 <h3 class="service-title">Custom Web Development</h3>
                 <p class="service-description">
-                    Bespoke web applications built with modern frameworks and best practices. 
+                    Bespoke web applications built with modern frameworks and best practices.
                     We create scalable, high-performance solutions tailored to your exact requirements.
                 </p>
                 <ul class="service-features">
@@ -1536,7 +1565,7 @@
                 <i class="ph-bold ph-chart-line service-icon"></i>
                 <h3 class="service-title">Lead Generation Systems</h3>
                 <p class="service-description">
-                    Conversion-optimized platforms designed to capture, nurture, and convert leads. 
+                    Conversion-optimized platforms designed to capture, nurture, and convert leads.
                     Integrated analytics and automation for maximum ROI.
                 </p>
                 <ul class="service-features">
@@ -1568,7 +1597,7 @@
                 <i class="ph-bold ph-stack service-icon"></i>
                 <h3 class="service-title">Custom Tech Stack Solutions</h3>
                 <p class="service-description">
-                    Strategic technology selection and implementation. We build with the right tools 
+                    Strategic technology selection and implementation. We build with the right tools
                     for your specific business needs and scale requirements.
                 </p>
                 <ul class="service-features">
@@ -1600,7 +1629,7 @@
                 <i class="ph-bold ph-palette service-icon"></i>
                 <h3 class="service-title">UI/UX Design & Strategy</h3>
                 <p class="service-description">
-                    Data-driven design that puts users first. We create intuitive interfaces backed 
+                    Data-driven design that puts users first. We create intuitive interfaces backed
                     by research, testing, and proven design principles.
                 </p>
                 <ul class="service-features">
@@ -1632,7 +1661,7 @@
                 <i class="ph-bold ph-shopping-cart service-icon"></i>
                 <h3 class="service-title">E-Commerce Solutions</h3>
                 <p class="service-description">
-                    End-to-end e-commerce platforms with secure payments, inventory management, 
+                    End-to-end e-commerce platforms with secure payments, inventory management,
                     and seamless checkout experiences that maximize conversions.
                 </p>
                 <ul class="service-features">
@@ -1664,7 +1693,7 @@
                 <i class="ph-bold ph-wrench service-icon"></i>
                 <h3 class="service-title">Maintenance & Support</h3>
                 <p class="service-description">
-                    Continuous monitoring, updates, and optimization to ensure peak performance. 
+                    Continuous monitoring, updates, and optimization to ensure peak performance.
                     24/7 support and proactive maintenance for mission-critical systems.
                 </p>
                 <ul class="service-features">
@@ -1811,7 +1840,7 @@
                 <div class="section-number">// 03</div>
                 <h2>OUR PROVEN<br>PROCESS</h2>
                 <p class="section-description" style="margin-top: 1rem;">
-                    A systematic approach to digital excellence. From discovery to deployment, 
+                    A systematic approach to digital excellence. From discovery to deployment,
                     we follow a battle-tested methodology that ensures your project's success.
                 </p>
             </div>
@@ -1828,8 +1857,8 @@
                     <div class="step-content">
                         <h3 class="step-title">Discovery & Strategy</h3>
                         <p class="step-description">
-                            We begin with comprehensive research and strategic planning. Through stakeholder 
-                            interviews, competitive analysis, and market research, we develop a clear roadmap 
+                            We begin with comprehensive research and strategic planning. Through stakeholder
+                            interviews, competitive analysis, and market research, we develop a clear roadmap
                             aligned with your business objectives and user needs.
                         </p>
                         <div class="step-details">
@@ -1856,8 +1885,8 @@
                     <div class="step-content">
                         <h3 class="step-title">Design & Prototyping</h3>
                         <p class="step-description">
-                            Our design team creates visually stunning and highly functional interfaces. We develop 
-                            wireframes, interactive prototypes, and comprehensive design systems that ensure 
+                            Our design team creates visually stunning and highly functional interfaces. We develop
+                            wireframes, interactive prototypes, and comprehensive design systems that ensure
                             consistency and scalability across all touchpoints.
                         </p>
                         <div class="step-details">
@@ -1884,8 +1913,8 @@
                     <div class="step-content">
                         <h3 class="step-title">Development & Integration</h3>
                         <p class="step-description">
-                            Our engineering team builds your solution using modern technologies and best practices. 
-                            We follow agile methodologies, maintain clean code standards, and integrate seamlessly 
+                            Our engineering team builds your solution using modern technologies and best practices.
+                            We follow agile methodologies, maintain clean code standards, and integrate seamlessly
                             with your existing systems and third-party services.
                         </p>
                         <div class="step-details">
@@ -1912,8 +1941,8 @@
                     <div class="step-content">
                         <h3 class="step-title">Testing & Quality Assurance</h3>
                         <p class="step-description">
-                            Rigorous testing ensures flawless performance. We conduct comprehensive QA including 
-                            functionality testing, performance optimization, security audits, and cross-browser 
+                            Rigorous testing ensures flawless performance. We conduct comprehensive QA including
+                            functionality testing, performance optimization, security audits, and cross-browser
                             compatibility testing before launch.
                         </p>
                         <div class="step-details">
@@ -1940,8 +1969,8 @@
                     <div class="step-content">
                         <h3 class="step-title">Launch & Continuous Support</h3>
                         <p class="step-description">
-                            We handle the complete deployment process with zero downtime. Post-launch, we provide 
-                            ongoing monitoring, performance optimization, security updates, and continuous improvements 
+                            We handle the complete deployment process with zero downtime. Post-launch, we provide
+                            ongoing monitoring, performance optimization, security updates, and continuous improvements
                             based on user feedback and analytics.
                         </p>
                         <div class="step-details">
@@ -2037,8 +2066,8 @@
                 <i class="ph-bold ph-brain capability-icon"></i>
                 <h3 class="capability-title">AI & Machine Learning Integration</h3>
                 <p class="capability-description">
-                    Leverage artificial intelligence to automate processes, personalize experiences, 
-                    and gain predictive insights. We integrate cutting-edge ML models for intelligent 
+                    Leverage artificial intelligence to automate processes, personalize experiences,
+                    and gain predictive insights. We integrate cutting-edge ML models for intelligent
                     decision-making and enhanced user experiences.
                 </p>
                 <ul class="capability-list">
@@ -2065,8 +2094,8 @@
                 <i class="ph-bold ph-lock capability-icon"></i>
                 <h3 class="capability-title">Enterprise Security Solutions</h3>
                 <p class="capability-description">
-                    Bank-grade security infrastructure protecting your data and users. We implement 
-                    comprehensive security measures including encryption, authentication, and regular 
+                    Bank-grade security infrastructure protecting your data and users. We implement
+                    comprehensive security measures including encryption, authentication, and regular
                     audits to ensure complete protection.
                 </p>
                 <ul class="capability-list">
@@ -2093,8 +2122,8 @@
                 <i class="ph-bold ph-globe capability-icon"></i>
                 <h3 class="capability-title">Global Scalability</h3>
                 <p class="capability-description">
-                    Build for growth with cloud-native architecture that scales automatically. 
-                    CDN integration, load balancing, and microservices ensure your platform 
+                    Build for growth with cloud-native architecture that scales automatically.
+                    CDN integration, load balancing, and microservices ensure your platform
                     handles traffic spikes without breaking a sweat.
                 </p>
                 <ul class="capability-list">
@@ -2121,8 +2150,8 @@
                 <i class="ph-bold ph-chart-bar capability-icon"></i>
                 <h3 class="capability-title">Advanced Analytics</h3>
                 <p class="capability-description">
-                    Make data-driven decisions with comprehensive analytics and reporting. 
-                    Real-time dashboards, custom metrics, and actionable insights to optimize 
+                    Make data-driven decisions with comprehensive analytics and reporting.
+                    Real-time dashboards, custom metrics, and actionable insights to optimize
                     performance and maximize ROI.
                 </p>
                 <ul class="capability-list">
@@ -2166,8 +2195,8 @@
                             <i class="ph-fill ph-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Zero Gravity transformed our digital presence completely. Their technical expertise 
-                            and strategic approach resulted in a 300% increase in lead generation. The team's 
+                            "Zero Gravity transformed our digital presence completely. Their technical expertise
+                            and strategic approach resulted in a 300% increase in lead generation. The team's
                             attention to detail and commitment to excellence is unmatched."
                         </p>
                     </div>
@@ -2190,8 +2219,8 @@
                             <i class="ph-fill ph-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Working with Zero Gravity was a game-changer. They delivered a cutting-edge platform 
-                            that exceeded all expectations. The development process was transparent, efficient, 
+                            "Working with Zero Gravity was a game-changer. They delivered a cutting-edge platform
+                            that exceeded all expectations. The development process was transparent, efficient,
                             and the final product is simply outstanding."
                         </p>
                     </div>
@@ -2214,8 +2243,8 @@
                             <i class="ph-fill ph-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "The ROI we've achieved through Zero Gravity's work is incredible. Their data-driven 
-                            approach and continuous optimization ensure we stay ahead of the competition. 
+                            "The ROI we've achieved through Zero Gravity's work is incredible. Their data-driven
+                            approach and continuous optimization ensure we stay ahead of the competition.
                             Best digital partner we've ever worked with."
                         </p>
                     </div>
@@ -2238,8 +2267,8 @@
                             <i class="ph-fill ph-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Zero Gravity's expertise in modern web technologies is exceptional. They built us 
-                            a scalable, high-performance platform that handles millions of users effortlessly. 
+                            "Zero Gravity's expertise in modern web technologies is exceptional. They built us
+                            a scalable, high-performance platform that handles millions of users effortlessly.
                             Their technical prowess is truly world-class."
                         </p>
                     </div>
@@ -2262,8 +2291,8 @@
                             <i class="ph-fill ph-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "From strategy to execution, Zero Gravity delivered perfection. Their user-centric 
-                            design approach and technical excellence created a product our customers love. 
+                            "From strategy to execution, Zero Gravity delivered perfection. Their user-centric
+                            design approach and technical excellence created a product our customers love.
                             Highly recommended for any serious digital project."
                         </p>
                     </div>
@@ -2286,8 +2315,8 @@
                             <i class="ph-fill ph-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "The level of professionalism and expertise Zero Gravity brings is remarkable. 
-                            They don't just build websites—they engineer growth machines. Our conversion 
+                            "The level of professionalism and expertise Zero Gravity brings is remarkable.
+                            They don't just build websites—they engineer growth machines. Our conversion
                             rates have doubled since launch."
                         </p>
                     </div>
@@ -2308,7 +2337,7 @@
         <div class="cta-content">
             <h2>READY TO LAUNCH<br>YOUR PROJECT?</h2>
             <p>
-                Let's build something extraordinary together. Schedule a free consultation 
+                Let's build something extraordinary together. Schedule a free consultation
                 to discuss your vision and discover how we can bring it to life.
             </p>
             <div class="cta-buttons">
@@ -2330,7 +2359,7 @@
             <div class="footer-brand">
                 <h3>ZERO GRAVITY</h3>
                 <p>
-                    A digital innovation studio crafting high-performance web solutions 
+                    A digital innovation studio crafting high-performance web solutions
                     that defy conventional limits and propel businesses forward.
                 </p>
                 <div class="footer-social">
@@ -2443,7 +2472,7 @@
             document.addEventListener('mousemove', (e) => {
                 cursor.style.left = e.clientX + 'px';
                 cursor.style.top = e.clientY + 'px';
-                
+
                 setTimeout(() => {
                     cursorFollower.style.left = e.clientX + 'px';
                     cursorFollower.style.top = e.clientY + 'px';
@@ -2511,10 +2540,10 @@
 
         // Stats Counter Animation
         const statNumbers = document.querySelectorAll('.stat-number');
-        
+
         statNumbers.forEach(stat => {
             const target = parseInt(stat.getAttribute('data-count'));
-            
+
             ScrollTrigger.create({
                 trigger: stat,
                 start: 'top 80%',
@@ -2567,7 +2596,7 @@
         // Process Timeline Animation - FIXED
         const timelineProgress = document.querySelector('.timeline-progress');
         const processSteps = gsap.utils.toArray('.process-step');
-        
+
         // Animate the timeline progress line
         gsap.to(timelineProgress, {
             height: '100%',
@@ -2584,7 +2613,7 @@
         processSteps.forEach((step, i) => {
             const stepCircle = step.querySelector('.step-circle');
             const stepContent = step.querySelector('.step-content');
-            
+
             // Circle animation with active state
             ScrollTrigger.create({
                 trigger: step,
@@ -2740,7 +2769,7 @@
                     gsap.to(cursor, { scale: 2, duration: 0.3 });
                     gsap.to(cursorFollower, { scale: 0, duration: 0.3 });
                 });
-                
+
                 btn.addEventListener('mouseleave', () => {
                     gsap.to(cursor, { scale: 1, duration: 0.3 });
                     gsap.to(cursorFollower, { scale: 1, duration: 0.3 });
@@ -2749,4 +2778,5 @@
         }
     </script>
 </body>
+
 </html>
